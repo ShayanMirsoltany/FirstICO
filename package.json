@@ -1,0 +1,25 @@
+{
+  "name": "firstico",
+  "version": "1.0.0",
+  "description": "REMIX DEFAULT WORKSPACE",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanMirsoltany/FirstICO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayanMirsoltany/FirstICO/issues"
+  },
+  "homepage": "https://github.com/ShayanMirsoltany/FirstICO#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
