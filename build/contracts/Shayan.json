@@ -1,0 +1,190 @@
+{
+  "contractName": "Shayan",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.22+commit.4fc1097e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ICO/TokenERC20.sol\":\"Shayan\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ICO/TokenERC20.sol\":{\"keccak256\":\"0xabb503adbc97ceb5897b18c77a583da5fba164f46e1a808b77b43403fb561af2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ca703e35a6f41cf4d60b3a3ba2ee0de9746d840046c7a0800c55b580fc53274e\",\"dweb:/ipfs/QmVUYmeGNoydAkMfc53nvoqQQEXzQqzP2PkiMBe6VRDzSt\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b5060045f55603e80601e5f395ff3fe60806040525f80fdfea264697066735822122093b69e7884f3df60806de0dd26c0905fa551e48cb201109a27e20cad6b48406764736f6c63430008160033",
+  "deployedBytecode": "0x60806040525f80fdfea264697066735822122093b69e7884f3df60806de0dd26c0905fa551e48cb201109a27e20cad6b48406764736f6c63430008160033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "329:73:2:-:0;;;364:35;;;;;;;;;-1:-1:-1;390:1:2;388;:3;329:73;;;;;;",
+  "deployedSourceMap": "329:73:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.22;\r\n// import \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\r\n// contract TokenERC20 is ERC20{\r\n//     address public admin;\r\n//     constructor() ERC20(\"myToken\",\"MTK\"){\r\n//         admin = msg.sender;\r\n//         _mint(admin,1000 * 10 ** decimals());\r\n//     }\r\n// }\r\n\r\ncontract Shayan{\r\n    uint a;\r\n    constructor(){\r\n        a=4;\r\n    }\r\n}\r\n\r\n",
+  "sourcePath": "D:\\SolidityProjects\\P2_ICO\\FirstICO\\contracts\\ICO\\TokenERC20.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ICO/TokenERC20.sol",
+    "exportedSymbols": {
+      "Shayan": [
+        509
+      ]
+    },
+    "id": 510,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 498,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Shayan",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 509,
+        "linearizedBaseContracts": [
+          509
+        ],
+        "name": "Shayan",
+        "nameLocation": "338:6:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 500,
+            "mutability": "mutable",
+            "name": "a",
+            "nameLocation": "356:1:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 509,
+            "src": "351:6:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 499,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "351:4:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 507,
+              "nodeType": "Block",
+              "src": "377:22:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 505,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 503,
+                      "name": "a",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 500,
+                      "src": "388:1:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "34",
+                      "id": 504,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "390:1:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_4_by_1",
+                        "typeString": "int_const 4"
+                      },
+                      "value": "4"
+                    },
+                    "src": "388:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 506,
+                  "nodeType": "ExpressionStatement",
+                  "src": "388:3:2"
+                }
+              ]
+            },
+            "id": 508,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 501,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "375:2:2"
+            },
+            "returnParameters": {
+              "id": 502,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "377:0:2"
+            },
+            "scope": 509,
+            "src": "364:35:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 510,
+        "src": "329:73:2",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "33:373:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.22+commit.4fc1097e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-11-30T09:53:07.833Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
